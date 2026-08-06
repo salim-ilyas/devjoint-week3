@@ -1,4 +1,4 @@
-# Checkpoint 3 — Tool Execution + Final Natural-Language Response (20 pts)
+# Checkpoint 3 — Tool Execution + Final Natural-Language Response
 
 ## Goal
 When the model picks a tool, actually **execute** it in Python, send the
