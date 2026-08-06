@@ -1,6 +1,6 @@
 # Week 3 — AI Agent with Tool/Function Calling
 
-An agent built on Google's Gemini API (`gemini-1.5-flash`) that can
+An agent built on Google's Gemini API (`gemini-3.5-flash`) that can
 call tools, chain multiple tool calls together when a request needs
 it, protect itself against infinite loops, and log its own reasoning
 for debugging. Built incrementally across 6 checkpoints, each in its
