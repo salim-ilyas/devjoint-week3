@@ -1,8 +1,8 @@
 from google.generativeai.types import FunctionDeclaration, Tool
 
 # calculator_tool is a FunctionDeclaration that defines a tool for performing basic arithmetic calculations. 
-# It takes two operands and an operator as input parameters and returns the result of the calculation. 
-# The tool is described in detail, including the types of operations it can perform (addition, subtraction, multiplication, division) and the required parameters.
+# it takes two operands and an operator as input parameters and returns the result of the calculation. 
+# the tool is described in detail, including the types of operations it can perform (addition, subtraction, multiplication, division) and the required parameters.
 calculator_tool = FunctionDeclaration(
     name="calculator",
     description=(
@@ -24,7 +24,7 @@ calculator_tool = FunctionDeclaration(
             },
             "operator": {
                 "type": "string",
-                "description": "The arithmetic operation to perform.",
+                "description": "The arithmetic operation to be performed.",
                 "enum": ["add", "subtract", "multiply", "divide"]
             }
         },
@@ -33,7 +33,7 @@ calculator_tool = FunctionDeclaration(
 )
 
 # weather_tool is a FunctionDeclaration that defines a tool for retrieving current weather conditions for a specific city.
-# It takes a location (city name) and an optional unit (celsius or fahrenheit)
+# it takes a location (city name) and an optional unit (celsius or fahrenheit)
 weather_tool = FunctionDeclaration(
     name="get_weather",
     description=(
